@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -ECFILE>>c
-Footer
+gcc -E $CFILE
