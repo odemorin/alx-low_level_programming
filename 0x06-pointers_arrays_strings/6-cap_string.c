@@ -3,13 +3,11 @@
 
 
 /**
- *  * cap_string - capitalizes all words in a string
+ *capi_string - capitalizes all words in a string
  *
  *   * @s: string to capitalize
  *
- *    *
- *
- *     * Return: address of s
+ * Return: address of s
  */
 
 char *cap_string(char *s)
@@ -32,7 +30,7 @@ char *cap_string(char *s)
 				}
 			}
 		}
-			i++;
-		}
-		return (s);
+		i++;
+	}
+	return (s);
 }
